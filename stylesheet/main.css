@@ -8,23 +8,90 @@ html{
   	color: white;
   	font-family: sans-serif;
   	font-size: 20px;
-  	text-align: center;
   }
 
- img{
- 	float: left;
+ #headshot img{
+ 	position: relative;
  	height: 150px;
- 	border-radius: 50%, 0%;
+ 	border-radius: 20% 0%;
+ 	top: 50px;
+ 	left: 350px;
  }
+
+#container{
+	margin: 20px auto;
+	text-align: center;
+	max-width: 900px;
+}
+
 	
-header, .resume{
-	margin: 20px;
-	clear: left;
+header, .resume, .projects{
+	margin-top: 20px;
 }	
 
+.resume{
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+}
 
-	h1{
-		font-size: 2em;
-		font-weight: bold;
-		border-bottom: 2px solid white;
-	}
+.resume-add{
+	margin: 10px auto;
+	border: 5px double black;
+	width: 750px;
+	display: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.projects{
+	display: inline-block;
+	width: 900px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: bold;
+	border-bottom: 2px solid white;
+}
+
+h2{
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.project-list{
+	margin-top: 20px;
+	display: none;
+}
+
+li{
+	text-align: center;
+	font-weight: bold;
+	min-height: 40px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid white;
+	border-radius: 30px;
+	background: #125C71;
+}
+li:hover{
+	background-color: #0F718A;
+}
+
+li a:hover{
+	text-decoration: none;
+	color: white;
+}
