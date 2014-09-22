@@ -1,0 +1,126 @@
+html{
+	min-height: 100%;
+	background: black;
+	background: -webkit-radial-gradient(gray, black);
+ 	background:    -moz-radial-gradient(gray, black);
+  	background:         radial-gradient(gray, black);
+  	background-repeat: no-repeat;
+	/* background: #125eea;
+	background: -webkit-radial-gradient(white, #125eea);
+ 	background:    -moz-radial-gradient(white, #125eea);
+  	background:         radial-gradient(white, #125eea);
+  	background-repeat: no-repeat; */
+}
+
+#container{
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+	min-width: 400px;
+}
+
+.entry {
+	display: block;
+	min-width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+#heading, .shopping-list{
+	background-color: white;
+	padding: 25px;
+	border: 5px double black;
+	border-radius: 10px;
+}
+
+.shopping-list{
+	margin-top: 20px;
+}
+
+.title{
+	border-bottom: 3px solid black;
+}
+
+.store{
+	width: 100%;
+	display: inline;
+	font-size: 1.5em;
+	border-bottom: 2px solid black;
+}
+
+.strike{
+	text-decoration: line-through;
+}
+
+h1{ 
+	display: inline;
+	font-size: 2em;
+	text-align: center;
+	padding: 5px;
+}
+
+button, input{
+	width: 100%;
+	height: 1.5em;
+	font-size: 1em;
+	border-radius: 5px;
+	text-align: center;
+}
+
+input{
+	font-weight: 800;
+}
+
+button{
+	margin-bottom: 15px;	
+}
+
+button:hover{
+	font-weight: bold;
+	height:1.6em;
+}
+
+.list{
+	margin: 20px auto;
+	max-width: 75%;
+	display: block;
+}
+
+.list li{
+	font-size: 1em;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+.Instructions{
+	margin-top: 80px;
+	font-size: .75em;
+	border-top: 7px double black;
+}
+
+.Instructions li{
+	list-style-type: circle;
+	padding: 3px 0 0 0;
+}
+
+.delete{
+	float: right;
+	height: 20px;
+	display: inline-block;
+}
+
+/* Jquery Specific */
+
+#list-item{
+	display: none;
+}
+
+.shopping-list{
+	display: none;
+}
