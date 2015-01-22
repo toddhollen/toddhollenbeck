@@ -39,6 +39,25 @@ header, footer{
 	
 }
 
+p{
+
+	font-size: 1em;
+
+}
+
+
+p a{
+
+	color: blue;
+
+}
+
+p a:hover{
+
+	text-decoration: underline;
+
+}
+
 a{
 
 	color: black;
@@ -110,7 +129,7 @@ header{
 
 }
 
-.about img{
+.headshot{
 	
 	height: 200px;
 	float: left;
@@ -119,9 +138,20 @@ header{
 	
 }
 
+.hockey{
+	
+	position: relative;
+	height: 200px;
+	float: right;
+	padding-right: 20px;
+
+}
+
+
 .about p{
 	
 	margin-top: 10px;
+	padding-bottom: 15px;
 	text-align: left;
 	line-height: 1.3em;
 	
