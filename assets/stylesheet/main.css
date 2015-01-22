@@ -1,103 +1,233 @@
+/*=======================================================
+
+Fonts and colors
+
+=========================================================*/
+
+
 html{
-	min-height: 100%;
-	background: black;
-	background: -webkit-radial-gradient(gray, black);
- 	background:    -moz-radial-gradient(gray, black);
-  	background:         radial-gradient(gray, black);
-  	background-repeat: no-repeat;
-  	color: white;
-  	font-family: sans-serif;
-  	font-size: 20px;
-  }
 
- #headshot img{
- 	height: 250px;
- 	border-radius: 20% 0%;
- }
+	font-size: 20px;
+	font-family: Merriweather, serif;
 
- #headshot{
- 	display: block;
- 	position: relative;
- 	max-width: 175px;
- 	top: 50px;
-
- }
-
-#container{
-	margin: 20px auto;
-	text-align: center;
-	max-width: 900px;
-	min-width: 900px;
-}
-
-	
-header, .resume, .projects{
-	margin-top: 20px;
-}	
-
-.resume{
-	padding-bottom: 5px;
-	border-bottom: 2px solid white;
-}
-
-.resume-add{
-	margin: 10px auto;
-	border: 5px double black;
-	width: 600px;
-	display: none;
-}
-
-a {
-	color: white;
-	text-decoration: none;
-}
-
-a:hover{
-	font-size: 1.2em;
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-.projects{
-	display: inline-block;
-	width: 900px;
-	padding-bottom: 5px;
-	border-bottom: 2px solid white;
 }
 
 h1{
-	font-size: 2em;
+
+	font-size: 2.2em;
 	font-weight: bold;
-	border-bottom: 2px solid white;
+
 }
 
 h2{
+
 	font-size: 1.5em;
 	font-weight: bold;
+
+}
+
+h3{
+
+	
+	font-size: 1.1em;
+
+}
+
+header, footer{
+
+	background-color: #78d5e3;
+	
+}
+
+a{
+
+	color: black;
+	text-decoration: none;
+	font-size: 1.1em;
+
+}
+
+a:hover{
+
+	color: blue;
+
+}
+
+.about, .resume, .projects, .contact{
+
+	background-color: orange;
+	border-radius: 2%;
+
+}
+
+/*=======================================================
+
+Positioning
+
+=========================================================*/
+
+.about, .resume, .projects, .contact{
+	
+	margin: 200px auto 75px auto;
+	padding: 80px;
+	text-align: center;
+	width: 1000px;
+	min-height: 500px; 
+	
+}
+
+
+header{
+
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 2;
+
+}
+
+.nav{
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.nav a{ 
+
+	padding: 10px;
+
+}
+
+.title{
+
+	margin: 0px 40px;	
+
+}
+
+.title h3{
+
+	margin: 5px 0px 5px 40px;
+
+}
+
+.about img{
+	
+	height: 200px;
+	float: left;
+	padding-right: 20px;
+	padding-left: 10px;
+	
+}
+
+.about p{
+	
+	margin-top: 10px;
+	text-align: left;
+	line-height: 1.3em;
+	
+}
+
+.resume-add{
+
+	width: 1000px;
+	padding-top: 20px;
+
+}
+
+.project-add{
+	
+	display: inline-block;
+	padding: 50px;
+	width: 200px;
+	z-index: 0px
+
+
+}
+
+.projects h2{
+
+	margin-left: 25px;
+
 }
 
 .project-list{
-	margin-top: 20px;
-	display: none;
+
+	display: inline-block;
+	margin-left: -60px;
+
 }
 
-li{
+.project-list img{
+	
+	margin-top: 5px;
+	width: 280px;
+	height: 200px;
+	opacity: 0.4;
+	border: 2px solid black;
+
+}
+
+.project-list img:hover{
+
+	opacity: 1;
+
+}
+
+.project-list p{
+	
+	width: 100%;
+	margin-left: 20%;
 	text-align: center;
-	font-weight: bold;
-	min-height: 40px;
-	margin-bottom: 10px;
-	padding-top: 15px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border: 2px solid white;
-	border-radius: 30px;
-	background: #125C71;
-}
-li:hover{
-	background-color: #0F718A;
+
 }
 
-li a:hover{
-	text-decoration: none;
-	color: white;
+
+footer{
+	
+	padding: 20px;
+	text-align: center;
+	
+}
+
+
+footer a{
+
+	padding-left: 20px;
+
+}
+/*=======================================================
+
+Add and Remove Sections
+
+=========================================================*/
+
+.nav{
+
+	display: block;
+
+}
+
+.about{
+
+	display: none;
+
+}
+
+.resume{
+
+	display: none;
+
+}
+
+.projects{
+
+	display: none;
+
+}
+
+
+footer{
+
+	display: block;
+
 }
