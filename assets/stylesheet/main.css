@@ -26,11 +26,59 @@ h2{
 
 }
 
+#Education h2, #Employment h2{
+
+	text-align: center;
+	margin: 5px auto 10px auto;
+	font-size: 1.3em;
+}
+
 h3{
 
 	
 	font-size: 1.1em;
 
+}
+
+#Education h4{
+
+	font-size:1.1em;
+	font-weight: bold;
+	margin: 10px 0px 0px 10px;
+}
+
+
+#Education li{
+
+	padding:7px 0px 5px 50px;
+	font-size:1em;
+
+}
+
+#Education ul{
+
+	font-style: italic;
+	margin-left: 30px;
+
+}
+
+#Employment li{
+
+	margin-top: 8px;
+}
+
+.subbullet{
+
+	margin-left: 60px;
+	list-style-type: disc;
+
+}
+
+
+h5{
+	clear: both;
+	font-style: italic;
+	margin-left: 10px;
 }
 
 header, footer{
@@ -74,7 +122,7 @@ a:hover{
 
 .about, .resume, .projects, .contact{
 
-	background-color: orange;
+	/*background-color: orange;*/
 	border-radius: 2%;
 
 }
@@ -87,14 +135,22 @@ Positioning
 
 .about, .resume, .projects, .contact{
 	
-	margin: 200px auto 75px auto;
-	padding: 80px;
+	margin: 150px auto 75px auto;
+	padding: 20px 80px;
 	text-align: center;
 	width: 1000px;
-	min-height: 500px; 
-	
+	min-height: 500px;
 }
 
+.container{
+
+	background-color: #FFF8DC;
+	border-radius: 20px;
+	border: 5px solid black;
+	padding: 20px 80px;
+	margin: 30px auto -50px auto;
+	
+}
 
 header{
 
@@ -261,3 +317,118 @@ footer{
 	display: block;
 
 }
+
+/*=======================================================
+
+Resume Formatting
+
+=========================================================*/
+
+
+#Employment{
+/*Position: relative;*/
+width: 1000px;
+margin:30px auto -50px auto;
+border: 5px solid black;
+padding: 1%;
+text-align: left;
+background-color: #FFF8DC;
+border-radius: 20px;
+font-size: 1em;
+}
+
+#Education{
+/*Position: relative;*/
+width: 1000px;
+margin:3% auto 3% auto;
+border: 5px solid black;
+padding: 1%;
+text-align: left;
+background-color:#FFF8DC;
+border-radius: 20px;
+font-size: 1em;
+}
+
+#Interests{
+/*Position: relative;*/
+width: 1000px;
+margin:3% auto 3% auto;
+border: 5px solid black;
+padding: 1%;
+background-color: #FFF8DC;
+border-radius: 20px;
+font-size: 1em;
+text-align:center;
+}
+
+.box1{
+display:block;
+float: left;
+margin: 5px 25px 0px 10px;
+Padding-right: 20px;
+}
+
+.box2{
+display: block;
+float: left;
+margin: 5px 25px 5px 0px;
+border-left: 5px solid black;
+text-align: center;
+padding: 0px 20px 0px 40px;
+}
+
+.box3{
+display:block;
+Float:left;
+padding: 0px 20px 0px 20px;
+margin: 5px 25px 5px 0px;
+border-left: 5px solid black;
+text-align: center;
+}
+
+.box4{
+display:inline-block;
+margin: 5px 25px 0px 0px;
+Padding-right: 20px;
+}
+
+.box5{
+display:inline-block;
+margin: 5px 25px 5px 0px;
+border-left: 5px solid black;
+padding: 0px 20px 0px 40px;
+}
+
+.box6{
+display:inline-block;
+padding: 0px 20px 0px 40px;
+margin: 5px 25px 5px 0px;
+border-left: 5px solid black;
+}
+
+.subbox{
+border-bottom:1px dashed black;
+margin: 10px 20px 10px 20px;
+padding-bottom: 15px;
+}
+
+.subbox2{
+margin: 10px 20px 10px 20px;
+padding-bottom: 15px;
+}
+
+a:link{
+Color:#125EEA;
+}
+
+a:hover{
+text-style: Bold;
+font-size: 1.1em;
+
+}
+
+a: visited{
+color:#12BDE8;
+}
+
+
