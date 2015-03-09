@@ -61,7 +61,7 @@ $('.p-click').on('click', function(event){
 $(".edu-click").on("click", function(event) {
     event.preventDefault();
     
-    $('.edu-hide').fadeToggle('400', function() {
+    $('.edu-hide').fadeToggle('slow', function() {
         
     });
                      
@@ -70,7 +70,7 @@ $(".edu-click").on("click", function(event) {
 $(".emp-click").on("click", function(event) {
     event.preventDefault();
     
-    $('.emp-hide').fadeToggle('400', function() {
+    $('.emp-hide').fadeToggle('slow', function() {
         
     });
                      
@@ -79,10 +79,40 @@ $(".emp-click").on("click", function(event) {
 $(".awa-click").on("click", function(event) {
     event.preventDefault();
     
-    $('.awa-hide').fadeToggle('400', function() {
+    $('.awa-hide').fadeToggle('slow', function() {
         
     });
                      
     });
+
+// Show and hide Project Sections
+
+$(".think-click").on("click", function(event) {
+    event.preventDefault();
+    
+    $('.think-hide').fadeToggle('slow', function() {
+        
+    });
+                     
+    });
+
+$(".games-click").on("click", function(event) {
+    event.preventDefault();
+    
+    $('.games-hide').fadeToggle('slow', function() {
+        
+    });
+                     
+    });
+
+$(".free-click").on("click", function(event) {
+    event.preventDefault();
+    
+    $('.free-hide').fadeToggle('slow', function() {
+        
+    });
+                     
+    });
+
 
 });

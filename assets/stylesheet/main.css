@@ -26,7 +26,7 @@ h2{
 
 }
 
-#Education h2, #Employment h2{
+#Education h2, #Employment h2, #Awards h2, #Thinkful h2, #Games h2, #Freelance h2{
 
 	text-align: center;
 	margin: 5px auto 10px auto;
@@ -40,9 +40,16 @@ h3{
 
 }
 
+h4{
+
+	font-size: 1em;
+	font-weight: bold;
+
+}
+
 #Education h4{
 
-	font-size:1.1em;
+	font-size:1em;
 	font-weight: bold;
 	margin: 10px 0px 0px 10px;
 }
@@ -102,13 +109,13 @@ p{
 }
 
 
-p a{
+p a, a h2{
 
 	color: blue;
 
 }
 
-p a:hover{
+p a:hover, a h2:hover{
 
 	text-decoration: underline;
 
@@ -130,8 +137,7 @@ a:hover{
 
 .about, .resume, .projects, .contact{
 
-	/*background-color: orange;*/
-	border-radius: 2%;
+		border-radius: 2%;
 
 }
 
@@ -231,47 +237,10 @@ header{
 .project-add{
 	
 	display: inline-block;
-	padding: 50px;
-	width: 200px;
-	z-index: 0px
-
-
-}
-
-.projects h2{
-
-	margin-left: 25px;
-
-}
-
-.project-list{
-
-	display: inline-block;
-	margin-left: -60px;
-
-}
-
-.project-list img{
-	
-	margin-top: 5px;
-	width: 280px;
-	height: 200px;
-	opacity: 0.4;
-	border: 2px solid black;
-
-}
-
-.project-list img:hover{
-
-	opacity: 1;
-
-}
-
-.project-list p{
-	
-	width: 100%;
-	margin-left: 20%;
-	text-align: center;
+	vertical-align: top;
+	padding: 10px;
+	margin: 10px;
+	width: 288px;
 
 }
 
@@ -326,6 +295,11 @@ footer{
 
 }
 
+.edu-hide, .emp-hide, .awa-hide, .think-hide, .free-hide, .games-hide{
+
+	display: none;
+}
+
 /*=======================================================
 
 Resume Formatting
@@ -334,7 +308,6 @@ Resume Formatting
 
 
 #Employment{
-/*Position: relative;*/
 width: 1000px;
 margin:3% auto 3% auto;
 border: 5px solid black;
@@ -346,7 +319,6 @@ font-size: 1em;
 }
 
 #Education{
-/*Position: relative;*/
 width: 1000px;
 margin:3% auto 3% auto;
 border: 5px solid black;
@@ -358,7 +330,6 @@ font-size: 1em;
 }
 
 #Awards{
-/*Position: relative;*/
 width: 1000px;
 margin: 30px auto -50px auto;
 border: 5px solid black;
@@ -372,8 +343,8 @@ text-align:center;
 .box1{
 display:block;
 float: left;
-margin: 5px 25px 0px 10px;
-Padding-right: 20px;
+margin: 5px 20px 0px 10px;
+padding-right: 20px;
 }
 
 .box2{
@@ -387,7 +358,7 @@ padding: 0px 20px 0px 40px;
 
 .box3{
 display:block;
-Float:left;
+float:left;
 padding: 0px 20px 0px 20px;
 margin: 5px 25px 5px 0px;
 border-left: 5px solid black;
@@ -397,7 +368,7 @@ text-align: center;
 .box4{
 display:inline-block;
 margin: 5px 25px 0px 0px;
-Padding-right: 20px;
+padding-right: 20px;
 }
 
 .box5{
@@ -425,21 +396,82 @@ margin: 10px 20px 10px 20px;
 padding-bottom: 15px;
 }
 
-a:link{
-Color:#125EEA;
+
+
+
+/*=======================================================
+
+Projects Formatting
+
+=========================================================*/
+
+
+.project-list{
+
+	margin: auto;
+	text-align: center;
+	
 }
 
-a:hover{
-text-style: Bold;
-font-size: 1.1em;
+.project-list img{
+	
+	margin-top: 5px;
+	width: 280px;
+	height: 200px;
+	opacity: 0.7;
+	border: 2px solid black;
 
 }
 
-a: visited{
-color:#12BDE8;
+.project-list img:hover{
+
+	opacity: 1;
+
 }
 
-.edu-hide, .emp-hide, .awa-hide{
+.project-list p{
+	
+	width: 288px;
+	text-align: left;
+	margin-bottom: 10px;
+	
+}
 
-	display: none;
+#Thinkful{
+
+width: 1000px;
+margin:3% auto 3% auto;
+border: 5px solid black;
+padding: 1%;
+text-align: left;
+background-color: #FFF8DC;
+border-radius: 20px;
+font-size: 1em;
+
+}
+
+#Games{
+
+width: 1000px;
+margin:3% auto 3% auto;
+border: 5px solid black;
+padding: 1%;
+text-align: left;
+background-color: #FFF8DC;
+border-radius: 20px;
+font-size: 1em;
+
+}
+
+#Freelance{
+
+width: 1000px;
+margin: 30px auto -50px auto;
+border: 5px solid black;
+padding: 1%;
+background-color: #FFF8DC;
+border-radius: 20px;
+font-size: 1em;
+text-align:center;
+
 }
