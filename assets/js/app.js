@@ -56,4 +56,33 @@ $('.p-click').on('click', function(event){
 
 });
 
+// Show and hide Resume sections
+
+$(".edu-click").on("click", function(event) {
+    event.preventDefault();
+    
+    $('.edu-hide').fadeToggle('400', function() {
+        
+    });
+                     
+    });
+
+$(".emp-click").on("click", function(event) {
+    event.preventDefault();
+    
+    $('.emp-hide').fadeToggle('400', function() {
+        
+    });
+                     
+    });
+
+$(".awa-click").on("click", function(event) {
+    event.preventDefault();
+    
+    $('.awa-hide').fadeToggle('400', function() {
+        
+    });
+                     
+    });
+
 });

@@ -439,4 +439,7 @@ a: visited{
 color:#12BDE8;
 }
 
+.edu-hide, .emp-hide, .awa-hide{
 
+	display: none;
+}
