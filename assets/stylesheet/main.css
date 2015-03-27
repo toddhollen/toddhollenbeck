@@ -1,3 +1,4 @@
+
 /*=======================================================
 
 Fonts and colors
@@ -52,20 +53,27 @@ h4{
 	font-size:1em;
 	font-weight: bold;
 	margin: 10px 0px 0px 10px;
+	
 }
 
 
+#Employment li{
+
+	margin-top: 8px;
+
+}
+
 #Education li{
 
-	padding:7px 0px 5px 50px;
-	font-size:1em;
+	padding:0px 0px 5px 15px;
+	font-size: 1em;
 
 }
 
 #Awards li{
 
-	padding:7px 0px 5px 50px;
-	font-size:1em;
+	padding:0px 0px 5px 15px;
+	font-size: 1em;
 	text-align: left;
 
 }
@@ -75,11 +83,6 @@ h4{
 	font-style: italic;
 	margin-left: 30px;
 
-}
-
-#Employment li{
-
-	margin-top: 8px;
 }
 
 .subbullet{
