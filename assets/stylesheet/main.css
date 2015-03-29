@@ -50,10 +50,17 @@ h4{
 
 #Education h4{
 
-	font-size:1em;
+	font-size: 1em;
 	font-weight: bold;
 	margin: 10px 0px 0px 10px;
 	
+}
+
+li{
+
+	list-style: disc;
+	font-weight: normal;
+
 }
 
 
@@ -63,16 +70,16 @@ h4{
 
 }
 
-#Education li{
+#Education ul{
 
-	padding:0px 0px 5px 15px;
+	padding:0px 0px 5px 30px;
 	font-size: 1em;
 
 }
 
-#Awards li{
+#Awards ul{
 
-	padding:0px 0px 5px 15px;
+	padding:0px 0px 5px 53px;
 	font-size: 1em;
 	text-align: left;
 
@@ -85,7 +92,7 @@ h4{
 
 }
 
-.subbullet{
+.subbullet li{
 
 	margin-left: 60px;
 	list-style-type: circle;
@@ -394,12 +401,12 @@ border-left: 5px solid black;
 
 .subbox{
 border-bottom:1px dashed black;
-margin: 10px 20px 10px 20px;
+margin: 10px 20px 10px 59px;
 padding-bottom: 15px;
 }
 
 .subbox2{
-margin: 10px 20px 10px 20px;
+margin: 10px 20px 10px 59px;
 padding-bottom: 15px;
 }
 
